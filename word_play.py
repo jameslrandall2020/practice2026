@@ -1,0 +1,10 @@
+name1=input("Enter your name: ")
+name1_correct=name1.strip().capitalize()
+name2=input("Enter your name: ")
+name2_correct=name2.strip().capitalize()
+name3=input("Enter your name: ")
+name3_correct=name3.strip().capitalize()  
+print(f"{name1_correct},{name2_correct},{name3_correct}")
+
+money=int(input("Enter the dollar amount: ").replace(",",""))
+print(money)   
